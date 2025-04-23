@@ -45,3 +45,24 @@ body {
     background-color: #4a0072;
   }
   
+  .cores {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .corPrincipal {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .corPrincipal[data-cor="red"] { background-color: red; }
+  .corPrincipal[data-cor="yellow"] { background-color: yellow; }
+  .corPrincipal[data-cor="green"] { background-color: green; }
+  .corPrincipal[data-cor="blue"] { background-color: blue; }
+  .corPrincipal[data-cor="white"] { background-color: white; border: 2px solid #ccc; }
+  .corPrincipal[data-cor="black"] { background-color: black; }
+  
